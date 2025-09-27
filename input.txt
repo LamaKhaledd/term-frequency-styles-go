@@ -1,0 +1,4 @@
+wewe nmnm wewe nmnm
+Hello world! Hello Go.
+This is a test of word frequencies.
+wewe nmnm wewe nmnm
