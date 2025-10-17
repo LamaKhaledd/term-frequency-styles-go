@@ -14,7 +14,7 @@ func main() {
 		os.Exit(1)
 	}
 
-	stopFile, err := os.Open("monolithic/stop_words.txt")
+	stopFile, err := os.Open("stop_words.txt")
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "error opening ../stop_words.txt: %v\n", err)
 		os.Exit(1)
