@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 <div align="center">
-  <img height="40" src="third.PNG" alt="Project banner image">
+  <img height="40" width="1000" src="third.PNG" alt="Project banner image">
   <br>
   <h1>Exercises in Programming Style – Go Implementations</h1>
   <strong>Exploring multiple programming paradigms in Go — one problem, many perspectives 💡</strong>
@@ -247,6 +247,7 @@ To contribute:
 [GooseURL]: https://pressly.github.io/goose/
 [ActionsBadge]: https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white
 [ActionsURL]: https://github.com/features/actions
+
 
 
 
