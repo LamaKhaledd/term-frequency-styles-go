@@ -15,8 +15,6 @@
     Re-implementing the term-frequency task from Cristina Videira Lopes’ <em>Exercises in Programming Style</em> using Go.  
     This project demonstrates how constraints and idioms shape design choices across diverse programming styles.
   </p>
-  <br>
-  <a href="https://github.com/YourUserName/exercises-in-style-go"><strong>📘 View the Repository »</strong></a>
 </div>
 
 <br>
@@ -87,6 +85,7 @@ Optional extensions:
 - Include tests and performance comparisons.
 
 <br>
+
 
 
 
