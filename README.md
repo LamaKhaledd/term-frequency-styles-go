@@ -5,7 +5,7 @@
   <h1>Exercises in Programming Style – Go Implementations</h1>
   <strong>Exploring multiple programming paradigms in Go — one problem, many perspectives 💡</strong>
   <br><br>
-  <img src="fourth.PNG" alt="Supporting image">
+  <img height="100" width="1000" src="fourth.PNG" alt="Supporting image">
 </div>
 
 <br>
@@ -247,6 +247,7 @@ To contribute:
 [GooseURL]: https://pressly.github.io/goose/
 [ActionsBadge]: https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white
 [ActionsURL]: https://github.com/features/actions
+
 
 
 
