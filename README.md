@@ -86,6 +86,141 @@ Optional extensions:
 
 <br>
 
+<a name="structure"></a>
+## 🗂 Folder Structure
+
+```
+exercises-in-style-go/
+├── monolithic/
+│   ├── main.go
+│   └── README.md
+├── pipeline/
+│   ├── main.go
+│   └── README.md
+├── things/
+│   ├── main.go
+│   └── README.md
+├── persistent_tables/
+│   ├── main.go
+│   └── README.md
+├── quarantine/
+│   ├── main.go
+│   └── README.md
+├── actors/
+│   ├── main.go
+│   └── README.md
+├── map_reduce/
+│   ├── main.go
+│   └── README.md
+└── README.md  ← this file
+```
+
+Each chapter directory includes:
+- `main.go` — the Go implementation  
+- `README.md` — summary of constraints & reflection on Go implementation
+
+<p align="right">(<a href="#readme-top">⬆️ Back to top</a>)</p>
+<br>
+
+<a name="techstack"></a>
+## 🛠 Built With
+
+* [![Go][GoBadge]][GoURL] – Open-source programming language designed for simplicity, concurrency, and efficiency.  
+* [![GitHub][GitHubBadge]][GitHubURL] – Version control and collaboration.  
+* [![VSCode][VSCodeBadge]][VSCodeURL] – Code editor for development.  
+* [![Postman][PostmanBadge]][PostmanURL] – For optional API or data testing.
+
+<br>
+
+<a name="getting-started"></a>
+## 🚀 Getting Started
+
+### Prerequisites
+
+Ensure you have installed:
+
+- **Go** (≥ 1.20)  
+- **Git**  
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/YourUserName/exercises-in-style-go.git
+cd exercises-in-style-go
+```
+
+### Run an Implementation
+
+```bash
+cd monolithic
+go run main.go ../data/input.txt ../data/stop_words.txt
+```
+
+### Build
+
+```bash
+go build -o monolithic/main monolithic/main.go
+```
+
+<br>
+
+<a name="usage"></a>
+## 💡 Usage
+
+Each program expects:
+1. A path to a text file to analyze.  
+2. A path to a stop-words file (or built-in list).  
+
+Output: top 25 most frequent words in the text.
+
+Compare results and structure across implementations — how each style handles:
+- Data flow  
+- State management  
+- Function boundaries  
+- Concurrency and communication  
+
+<br>
+
+<a name="contribution"></a>
+## 🤝 Contribution
+
+Contributions are welcome!  
+You can:
+- Add more styles from later chapters  
+- Write unit tests or benchmarks  
+- Improve documentation or examples  
+- Discuss style interpretations in issues  
+
+To contribute:
+1. Fork the repo  
+2. Create a feature branch (`git checkout -b feature/NewStyle`)  
+3. Commit your changes (`git commit -m "Add new style"`)  
+4. Push to the branch (`git push origin feature/NewStyle`)  
+5. Create a Pull Request  
+
+<p align="right">(<a href="#readme-top">⬆️ Back to top</a>)</p>
+<br>
+
+<a name="contact"></a>
+## 📬 Contact
+
+**Author:** Your Name  
+📧 **Email:** [your.email@example.com](mailto:your.email@example.com)  
+🔗 **GitHub:** [@YourUserName](https://github.com/YourUserName)
+
+<br><br>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[GoBadge]: https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white
+[GoURL]: https://go.dev/
+[GitHubBadge]: https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white
+[GitHubURL]: https://github.com/
+[VSCodeBadge]: https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visualstudiocode&logoColor=white
+[VSCodeURL]: https://code.visualstudio.com/
+[PostmanBadge]: https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white
+[PostmanURL]: https://www.postman.com/
+
+
 
 
 
