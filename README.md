@@ -19,23 +19,6 @@
 
 <br>
 
-<details>
-  <summary><h2>📚 Table of Contents</h2></summary>
-  <ol>
-    <li><a href="#intro">Introduction (What’s this project?)</a></li>
-    <li><a href="#goal">Goal & Motivation</a></li>
-    <li><a href="#chapters">Chapters & Styles Covered</a></li>
-    <li><a href="#structure">Folder Structure</a></li>
-    <li><a href="#techstack">Built With</a></li>
-    <li><a href="#getting-started">Getting Started</a></li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#contribution">Contribution</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ol>
-</details>
-
-<br>
-
 <a name="intro"></a>
 ## 💡 Introduction
 
@@ -212,6 +195,7 @@ go build -o monolithic/main monolithic/main.go
 [GooseURL]: https://pressly.github.io/goose/
 [ActionsBadge]: https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white
 [ActionsURL]: https://github.com/features/actions
+
 
 
 
