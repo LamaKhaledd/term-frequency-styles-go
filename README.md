@@ -204,9 +204,9 @@ To contribute:
 <a name="contact"></a>
 ## 📬 Contact
 
-**Author:** Your Name  
-📧 **Email:** [your.email@example.com](mailto:your.email@example.com)  
-🔗 **GitHub:** [@YourUserName](https://github.com/YourUserName)
+**Author:** Lama Ibrahim  
+📧 **Email:** [lama.ibrahim@outlook.sa](mailto:lama.ibrahim@outlook.sa)  
+🔗 **GitHub:** [@LamaKhaledd](https://github.com/LamaKhaledd)
 
 <br><br>
 
@@ -219,6 +219,7 @@ To contribute:
 [VSCodeURL]: https://code.visualstudio.com/
 [PostmanBadge]: https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white
 [PostmanURL]: https://www.postman.com/
+
 
 
 
