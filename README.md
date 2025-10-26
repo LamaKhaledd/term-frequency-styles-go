@@ -78,7 +78,7 @@ Each implementation solves the **same task**:
 | 5 | **Quarantine** | Pure vs impure code — isolate I/O from computation. |
 | 6 | **Actors** | Concurrency via message-passing between independent processes. |
 | 7 | **Map Reduce** | Divide the problem into mappers and reducers for parallel processing. |
-
+▶️ For more details on <strong>each Chapter</strong> visit the <a href="https://github.com/LamaKhaledd/term-frequency-styles-go/wiki">Wiki</a> section.
 <br>
 
 <a name="structure"></a>
@@ -247,6 +247,7 @@ To contribute:
 [GooseURL]: https://pressly.github.io/goose/
 [ActionsBadge]: https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white
 [ActionsURL]: https://github.com/features/actions
+
 
 
 
