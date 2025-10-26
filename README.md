@@ -190,43 +190,6 @@ go build -o monolithic/main monolithic/main.go
 
 <br>
 
-<a name="usage"></a>
-## 💡 Usage
-
-Each program expects:
-1. A path to a text file to analyze.  
-2. A path to a stop-words file (or built-in list).  
-
-Output: top 25 most frequent words in the text.
-
-The CI/CD pipeline (via GitHub Actions) ensures:
-- Code builds on push and pull requests.  
-- Unit tests run automatically.  
-- Database migrations are validated.  
-
-<br>
-
-<a name="contribution"></a>
-## 🤝 Contribution
-
-Contributions are welcome!  
-You can:
-- Add more styles from later chapters  
-- Write unit tests or benchmarks  
-- Improve database schema or queries  
-- Enhance the CI/CD pipeline  
-- Improve documentation or examples  
-
-To contribute:
-1. Fork the repo  
-2. Create a feature branch (`git checkout -b feature/NewStyle`)  
-3. Commit your changes (`git commit -m "Add new style"`)  
-4. Push to the branch (`git push origin feature/NewStyle`)  
-5. Create a Pull Request  
-
-<p align="right">(<a href="#readme-top">⬆️ Back to top</a>)</p>
-<br>
-
 <a name="contact"></a>
 ## 📬 Contact
 
@@ -249,6 +212,7 @@ To contribute:
 [GooseURL]: https://pressly.github.io/goose/
 [ActionsBadge]: https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white
 [ActionsURL]: https://github.com/features/actions
+
 
 
 
