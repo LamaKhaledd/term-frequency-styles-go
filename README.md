@@ -71,7 +71,6 @@ Each implementation solves the **same task**:
 
 | Chapter | Style | Description |
 |----------|--------|-------------|
-| Preface & Prologue | — | Conceptual foundation and motivation for stylistic constraints. |
 | 1 | **Monolithic** | A single large function — minimal abstraction, everything inline. |
 | 2 | **Pipeline** | A data-flow of transformations; no shared state. |
 | 3 | **Things** | Encapsulation through “objects” — entities sending messages. |
@@ -253,3 +252,4 @@ To contribute:
 [GooseURL]: https://pressly.github.io/goose/
 [ActionsBadge]: https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white
 [ActionsURL]: https://github.com/features/actions
+
