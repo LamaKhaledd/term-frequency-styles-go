@@ -82,7 +82,7 @@ Each implementation solves the **same task**:
 
 Optional extensions:
 - Add styles from later chapters.
-- Include tests and performance comparisons.
+- Include tests, database support, and CI/CD pipelines.
 
 <br>
 
@@ -112,12 +112,20 @@ exercises-in-style-go/
 ├── map_reduce/
 │   ├── main.go
 │   └── README.md
+├── db/
+│   ├── migrations/       # Goose migration files
+│   ├── queries/          # SQLC generated queries
+│   ├── schema.sql
+│   └── README.md
+├── .github/
+│   └── workflows/ci.yml  # GitHub Actions CI/CD pipeline
 └── README.md  ← this file
 ```
 
 Each chapter directory includes:
 - `main.go` — the Go implementation  
-- `README.md` — summary of constraints & reflection on Go implementation
+- `README.md` — summary of constraints & reflection on Go implementation  
+- For database support: `sqlc` and `goose` manage schema and queries  
 
 <p align="right">(<a href="#readme-top">⬆️ Back to top</a>)</p>
 <br>
@@ -126,9 +134,11 @@ Each chapter directory includes:
 ## 🛠 Built With
 
 * [![Go][GoBadge]][GoURL] – Open-source programming language designed for simplicity, concurrency, and efficiency.  
+* [![SQLC][SQLCBadge]][SQLCURL] – Generate type-safe Go code from SQL queries.  
+* [![Goose][GooseBadge]][GooseURL] – Database migration management for Go projects.  
+* [![GitHub Actions][ActionsBadge]][ActionsURL] – CI/CD automation for builds and tests.  
 * [![GitHub][GitHubBadge]][GitHubURL] – Version control and collaboration.  
 * [![VSCode][VSCodeBadge]][VSCodeURL] – Code editor for development.  
-* [![Postman][PostmanBadge]][PostmanURL] – For optional API or data testing.
 
 <br>
 
@@ -141,6 +151,8 @@ Ensure you have installed:
 
 - **Go** (≥ 1.20)  
 - **Git**  
+- **Goose CLI** (for migrations)  
+- **SQLC** (for generating query code)  
 
 ### Clone the Repository
 
@@ -149,11 +161,29 @@ git clone https://github.com/YourUserName/exercises-in-style-go.git
 cd exercises-in-style-go
 ```
 
+### Run Migrations
+
+```bash
+goose -dir ./db/migrations postgres "your-dsn" up
+```
+
+### Generate SQLC Code
+
+```bash
+sqlc generate
+```
+
 ### Run an Implementation
 
 ```bash
 cd monolithic
 go run main.go ../data/input.txt ../data/stop_words.txt
+```
+
+### Run Tests
+
+```bash
+go test ./...
 ```
 
 ### Build
@@ -173,11 +203,10 @@ Each program expects:
 
 Output: top 25 most frequent words in the text.
 
-Compare results and structure across implementations — how each style handles:
-- Data flow  
-- State management  
-- Function boundaries  
-- Concurrency and communication  
+The CI/CD pipeline (via GitHub Actions) ensures:
+- Code builds on push and pull requests.  
+- Unit tests run automatically.  
+- Database migrations are validated.  
 
 <br>
 
@@ -188,8 +217,9 @@ Contributions are welcome!
 You can:
 - Add more styles from later chapters  
 - Write unit tests or benchmarks  
+- Improve database schema or queries  
+- Enhance the CI/CD pipeline  
 - Improve documentation or examples  
-- Discuss style interpretations in issues  
 
 To contribute:
 1. Fork the repo  
@@ -217,11 +247,9 @@ To contribute:
 [GitHubURL]: https://github.com/
 [VSCodeBadge]: https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visualstudiocode&logoColor=white
 [VSCodeURL]: https://code.visualstudio.com/
-[PostmanBadge]: https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white
-[PostmanURL]: https://www.postman.com/
-
-
-
-
-
-
+[SQLCBadge]: https://img.shields.io/badge/SQLC-336791?style=for-the-badge&logo=postgresql&logoColor=white
+[SQLCURL]: https://sqlc.dev/
+[GooseBadge]: https://img.shields.io/badge/Goose-FFD700?style=for-the-badge&logo=go&logoColor=black
+[GooseURL]: https://pressly.github.io/goose/
+[ActionsBadge]: https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white
+[ActionsURL]: https://github.com/features/actions
