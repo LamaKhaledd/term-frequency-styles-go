@@ -88,30 +88,29 @@ Each implementation solves the **same task**:
 exercises-in-style-go/
 ├── monolithic/
 │   ├── main.go
-│   └── README.md
+│   └── stop_words.txt
 ├── pipeline/
 │   ├── main.go
-│   └── README.md
+│   └── stop_words.txt
 ├── things/
 │   ├── main.go
-│   └── README.md
+│   └── stop_words.txt
 ├── persistent_tables/
 │   ├── main.go
-│   └── README.md
+│   └── stop_words.txt
 ├── quarantine/
 │   ├── main.go
-│   └── README.md
+│   └── stop_words.txt
 ├── actors/
 │   ├── main.go
-│   └── README.md
+│   └── stop_words.txt
 ├── map_reduce/
 │   ├── main.go
-│   └── README.md
+│   └── stop_words.txt
 ├── db/
 │   ├── migrations/       # Goose migration files
 │   ├── queries/          # SQLC generated queries
-│   ├── schema.sql
-│   └── README.md
+│   └── schema.sql
 ├── .github/
 │   └── workflows/ci.yml  # GitHub Actions CI/CD pipeline
 └── README.md  ← this file
@@ -248,5 +247,6 @@ To contribute:
 [GooseURL]: https://pressly.github.io/goose/
 [ActionsBadge]: https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white
 [ActionsURL]: https://github.com/features/actions
+
 
 
