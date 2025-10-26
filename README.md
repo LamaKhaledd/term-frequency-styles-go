@@ -10,14 +10,6 @@
 
 <br>
 
-<div align="center">
-  <p>
-    Re-implementing the term-frequency task from Cristina Videira Lopes’ <em>Exercises in Programming Style</em> using Go.  
-    This project demonstrates how constraints and idioms shape design choices across diverse programming styles.
-  </p>
-</div>
-
-<br>
 
 <a name="intro"></a>
 ## 💡 Introduction
