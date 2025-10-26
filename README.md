@@ -106,7 +106,6 @@ Each chapter directory includes:
 - `README.md` — summary of constraints & reflection on Go implementation  
 - For database support: `sqlc` and `goose` manage schema and queries  
 
-<p align="right">(<a href="#readme-top">⬆️ Back to top</a>)</p>
 <br>
 
 <a name="techstack"></a>
@@ -195,6 +194,7 @@ go build -o monolithic/main monolithic/main.go
 [GooseURL]: https://pressly.github.io/goose/
 [ActionsBadge]: https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white
 [ActionsURL]: https://github.com/features/actions
+
 
 
 
