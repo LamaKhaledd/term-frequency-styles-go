@@ -81,6 +81,7 @@ Each implementation solves the **same task**:
 
 ▶️ For more details on <strong>each Chapter</strong> visit the <a href="https://github.com/LamaKhaledd/term-frequency-styles-go/wiki">Wiki</a> section.
 <br>
+<br>
 
 <a name="structure"></a>
 ## 🗂 Folder Structure
@@ -248,6 +249,7 @@ To contribute:
 [GooseURL]: https://pressly.github.io/goose/
 [ActionsBadge]: https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white
 [ActionsURL]: https://github.com/features/actions
+
 
 
 
