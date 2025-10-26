@@ -1,11 +1,11 @@
 <a name="readme-top"></a>
 <div align="center">
-  <img src="third.png" alt="Project banner image">
+  <img src="third.PNG" alt="Project banner image">
   <br>
   <h1>Exercises in Programming Style – Go Implementations 💡</h1>
   <strong>Exploring multiple programming paradigms in Go — one problem, many perspectives 🚀</strong>
   <br><br>
-  <img src="fourth.png" alt="Supporting image">
+  <img src="fourth.PNG" alt="Supporting image">
 </div>
 
 <br>
@@ -87,3 +87,4 @@ Optional extensions:
 - Include tests and performance comparisons.
 
 <br>
+
