@@ -1,11 +1,11 @@
 <a name="readme-top"></a>
 <div align="center">
-  <img height="70" width="1000" src="third.PNG" alt="Project banner image">
+  <img height="60" width="1000" src="third.PNG" alt="Project banner image">
   <br>
   <h1>Exercises in Programming Style – Go Implementations</h1>
   <strong>Exploring multiple programming paradigms in Go — one problem, many perspectives 💡</strong>
   <br><br>
-  <img height="200" width="1000" src="fourth.PNG" alt="Supporting image">
+  <img height="180" width="1000" src="fourth.PNG" alt="Supporting image">
 </div>
 
 <br>
@@ -78,6 +78,7 @@ Each implementation solves the **same task**:
 | 5 | **Quarantine** | Pure vs impure code — isolate I/O from computation. |
 | 6 | **Actors** | Concurrency via message-passing between independent processes. |
 | 7 | **Map Reduce** | Divide the problem into mappers and reducers for parallel processing. |
+
 ▶️ For more details on <strong>each Chapter</strong> visit the <a href="https://github.com/LamaKhaledd/term-frequency-styles-go/wiki">Wiki</a> section.
 <br>
 
@@ -247,6 +248,7 @@ To contribute:
 [GooseURL]: https://pressly.github.io/goose/
 [ActionsBadge]: https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white
 [ActionsURL]: https://github.com/features/actions
+
 
 
 
