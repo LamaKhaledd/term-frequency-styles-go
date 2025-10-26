@@ -79,10 +79,6 @@ Each implementation solves the **same task**:
 | 6 | **Actors** | Concurrency via message-passing between independent processes. |
 | 7 | **Map Reduce** | Divide the problem into mappers and reducers for parallel processing. |
 
-Optional extensions:
-- Add styles from later chapters.
-- Include tests, database support, and CI/CD pipelines.
-
 <br>
 
 <a name="structure"></a>
@@ -252,4 +248,5 @@ To contribute:
 [GooseURL]: https://pressly.github.io/goose/
 [ActionsBadge]: https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white
 [ActionsURL]: https://github.com/features/actions
+
 
